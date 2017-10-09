@@ -1,0 +1,64 @@
+/*selector and descriptor*/
+
+h1 {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.link_hide{
+    float: right;
+    font-family: 'FamiliarProBold',Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    vertical-align: middle;
+    color: blue;
+    text-decoration: underline;
+}
+
+.mydiv{
+    border-bottom: solid;
+    border-bottom-width: medium;
+    border-bottom-color: black;
+}
+div.todoStatusACTIVE{
+    height: 30px;
+    font-size: 17px;
+}
+
+div.todoStatusCOMPLETE{
+    color: green;
+    text-decoration: line-through;
+    text-decoration-color: green;
+    font-size: 17px;
+    height: 30px;
+}
+
+div.todoStatusDELETED{
+    color: red;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    font-size: 17px;
+    height: 30px;
+}
+
+.close {
+    content: "×";
+    color: red;
+    opacity: 1;
+}
+
+input[type='checkbox'].completeCheckbox {
+
+    background-image: none;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin: 4px 50px 4px 0;
+    fill: blue;
+    color:red;
+}
+
+input[type='checkbox'].completeCheckbox:checked {
+    background-color: dodgerblue;
+    color: red;
+    opacity: 1;
+}

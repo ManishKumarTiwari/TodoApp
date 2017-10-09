@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel = "stylesheet">
+    <link href = "styles.css" rel = "stylesheet">
+
+    <title>Todo App</title>
+</head>
+
+<body>
+<div class="container">
+    <h1>My Todo List</h1> <br>
+
+    <h2>Active Todos</h2>
+    <div class="mydiv" id = "active_todo_list_div"></div><br>
+
+    <!--Add todo-->
+    <h2>Add Todo</h2>
+    <div class="mydiv">
+    <input type="text" id="new_todo_title" placeholder="Enter todo title" style="margin-bottom: 10px">
+    <button value="Add todo" onclick="AddTodoAJAX()">Add</button><br>
+    </div>
+
+    <h2>Completed Todos <a class = "link_hide" href="#" id="hide_completed">Hide Items</a> </h2>
+
+    <div class="mydiv" id = "complete_todo_list_div"></div><br>
+
+    <h2>Deleted Todos <a class = "link_hide" href="#" id="hide_deleted">Hide Items</a> </h2>
+    <div class="mydiv" id = "deleted_todo_list_div"></div><br>
+
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
